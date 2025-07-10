@@ -30,7 +30,7 @@ const TaskList: React.FC = () => {
     if (isLoading) return <p className="text-center">Loading tasks...</p>;
 
     return (
-        <div className="p-8 rounded-lg shadow-luxury bg-ivory-light">
+        <div className="p-8 rounded-lg shadow-luxury bg-purple-100">
             <CreateTaskForm onTaskCreated={getTasks} />
             <ul className="p-0 list-none">
                 {tasks.map(task => (
